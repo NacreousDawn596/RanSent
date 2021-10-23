@@ -14,12 +14,19 @@ preposition = ["down", "into", "up", "on", "upon", "below", "above", "through", 
 
 function generate() {
 		var rand1 = Math.floor(Math.random() * adjectives.length);
-		var rand2 = Math.floor(Math.random() * nouns.length);
-		var rand3 = Math.floor(Math.random() * adverbs.length);
-		var rand4 = Math.floor(Math.random() * verbs.length);
+		var rand2 = Math.floor(Math.random() * adjectives.length);
+		var rand3 = Math.floor(Math.random() * adjectives.length);
+		var rand4 = Math.floor(Math.random() * adjectives.length);
 		var rand5 = Math.floor(Math.random() * nouns.length);
 		var rand6 = Math.floor(Math.random() * nouns.length);
-		var content = "The " + adjectives[rand1] + " " + nouns[rand2] + " " + adverbs[rand3] + " " + verbs[rand4] + " because some " + nouns[rand1] + " " + adverbs[rand1] + " " + verbs[rand1] + " " + preposition[rand1] + " a " + adjectives[rand2] + " " + nouns[rand5] + " which, became a " + adjectives[rand3] + ", " + adjectives[rand4] + " " + nouns[rand6] + ".";
+		var rand7 = Math.floor(Math.random() * nouns.length);
+		var rand8 = Math.floor(Math.random() * nouns.length);
+		var rand9 = Math.floor(Math.random() * verbs.length);
+		var rand10 = Math.floor(Math.random() * verbs.length);
+		var rand11 = Math.floor(Math.random() * adverbs.length);
+		var rand12 = Math.floor(Math.random() * adverbs.length);
+		var rand13 = Math.floor(Math.random() * preposition.length);
+		var content = "The " + adjectives[rand1] + " " + nouns[rand5] + " " + adverbs[rand11] + " " + verbs[rand9] + " because some " + nouns[rand6] + " " + adverbs[rand12] + " " + verbs[rand10] + " " + preposition[rand13] + " a " + adjectives[rand2] + " " + nouns[rand7] + " which, became a " + adjectives[rand3] + ", " + adjectives[rand4] + " " + nouns[rand8] + ".";
     console.log('"' + content + '"')
 }
 generate()
