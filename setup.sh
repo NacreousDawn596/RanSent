@@ -8,11 +8,11 @@ fi
 
 echo "installing packages..."
 sleep 1
-sudo apt-get install nodejs
+sudo apt-get install $1
 clear
-sudo pacman -S nodejs
+sudo pacman -S $1
 clear
-sudo dnf install nodejs
+sudo dnf install $1
 clear
 if [ "$1" == "nodejs" ]; then
   echo 'now you can run it by writing "node main.js" enjoy!'
