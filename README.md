@@ -12,3 +12,8 @@ cd RanSent
 chmod u+x setup.sh
 ./setup.sh
 ```
+# here is a little example:
+
+```md
+"The lovely duck elegantly ate because some bird slowly rolled across a beautiful fish which, became a lovely, cold hamster."
+```
