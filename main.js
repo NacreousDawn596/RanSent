@@ -1,6 +1,6 @@
 //by NacreousDawn596
 
-//you can add more nouns, verbs, adjectives, adverbs or even preposition! 
+//you can add more nouns, verbs, adjectives, adverbs or even prepositions! 
 //enjoy!
 
 //https://github.com/NacreousDawn596/
