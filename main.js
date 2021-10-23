@@ -13,12 +13,12 @@ adverbs = ["slowly", "elegantly", "precisely", "quickly", "sadly", "humbly", "pr
 preposition = ["down", "into", "up", "on", "upon", "below", "above", "through", "across", "towards"];
 
 function generate() {
-		var rand1 = Math.floor(Math.random() * adjectives.split(' ').length);
-		var rand2 = Math.floor(Math.random() * nouns.split(' ').length);
-		var rand3 = Math.floor(Math.random() * adverbs.split(' ').length);
-		var rand4 = Math.floor(Math.random() * verbs.split(' ').length);
-		var rand5 = Math.floor(Math.random() * nouns.split(' ').length);
-		var rand6 = Math.floor(Math.random() * nouns.split(' ').length);
+		var rand1 = Math.floor(Math.random() * adjectives.length);
+		var rand2 = Math.floor(Math.random() * nouns.length);
+		var rand3 = Math.floor(Math.random() * adverbs.length);
+		var rand4 = Math.floor(Math.random() * verbs.length);
+		var rand5 = Math.floor(Math.random() * nouns.length);
+		var rand6 = Math.floor(Math.random() * nouns.length);
 		var content = "The " + adjectives[rand1] + " " + nouns[rand2] + " " + adverbs[rand3] + " " + verbs[rand4] + " because some " + nouns[rand1] + " " + adverbs[rand1] + " " + verbs[rand1] + " " + preposition[rand1] + " a " + adjectives[rand2] + " " + nouns[rand5] + " which, became a " + adjectives[rand3] + ", " + adjectives[rand4] + " " + nouns[rand6] + ".";
     console.log('"' + content + '"')
 }
