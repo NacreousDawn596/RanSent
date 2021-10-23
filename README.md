@@ -1,9 +1,9 @@
 # RanSent
-a simple javascript code that generate a random sentence every time :)
+a simple javascript or python code that generate a random sentence every time :)
 
 # HOW TO USE IT
 
-you can use it as a pure javascript or running it with node 
+you can use it as a pure javascript or running it with node or even using python too if you are a python lover :D
 
 ```sh
 sudo apt-get install git 
@@ -12,6 +12,7 @@ cd RanSent
 chmod u+x setup.sh
 ./setup.sh
 ```
+
 # here is a little example:
 
 ```md
