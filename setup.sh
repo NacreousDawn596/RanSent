@@ -14,4 +14,9 @@ sudo pacman -S nodejs
 clear
 sudo dnf install nodejs
 clear
-echo 'now you can run it by writing "node main.js" enjoy!'
+if [ "$1" == "nodejs" ]; then
+  echo 'now you can run it by writing "node main.js" enjoy!'
+fi
+if [ "$1" == "python3" ]; then
+  echo 'now you can run it by writing "python3 main.py" enjoy!'
+fi
